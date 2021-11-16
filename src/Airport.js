@@ -1,5 +1,9 @@
 class Airport {
   land() {
-    return true
+    return true;
+  }
+
+  takeoff() {
+    return true;
   }
 }

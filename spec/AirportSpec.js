@@ -7,6 +7,10 @@ describe('Airport', function() {
   describe('instructs a plane', function() {
     it('to land', function() {
       expect(airport.land()).toBe(true);
-    }); 
+    });
+
+    it('to takeoff', function() {
+      expect(airport.takeoff()).toBe(true);
+    });
   });
 })
