@@ -13,4 +13,10 @@ describe('Airport', function() {
       expect(airport.takeoff()).toBe(true);
     });
   });
+
+  describe('alerts traffic control', function() {
+    it('if full', function() {
+      expect(airport.isFull()).toEqual('Airport is full');
+    });
+  }); 
 })

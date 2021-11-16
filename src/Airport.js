@@ -6,4 +6,8 @@ class Airport {
   takeoff() {
     return true;
   }
+
+  isFull() {
+    return 'Airport is full';
+  }
 }
