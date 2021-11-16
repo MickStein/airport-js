@@ -1,4 +1,8 @@
 class Airport {
+  maximumCapacity(maxCapacity) {
+    return maxCapacity;
+  }
+
   land() {
     return true;
   }
