@@ -1,17 +1,14 @@
-class Airport {
-  maximumCapacity(maxCapacity) {
-    return maxCapacity;
-  }
+// src/airport.js
+'use strict';
 
-  land() {
-    return true;
+class Airport{
+  constructor() {
+    this._hangar = []
   }
-
-  takeoff() {
-    return true;
+  planes() {
+    return this._hangar;
   }
-
-  isFull() {
-    return 'Airport is full';
-  }
-}
+  clearForLanding(plane) {
+    this._hangar.push(plane);
+  };
+};
